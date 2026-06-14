@@ -16,7 +16,6 @@ body {
   line-height: 1.7;
 }
 
-/* ACCESSIBILITY */
 .skip-link {
   position: absolute;
   top: 12px;
@@ -39,7 +38,6 @@ body {
   outline-offset: 4px;
 }
 
-/* GLOBAL STYLES */
 img {
   max-width: 100%;
   display: block;
@@ -57,7 +55,6 @@ p {
   max-width: 70ch;
 }
 
-/* NAVBAR */
 .navbar {
   position: fixed;
   top: 0;
@@ -114,7 +111,6 @@ nav {
   display: none;
 }
 
-/* BRAND LOGO (HEADER + FOOTER) */
 .plavel-brand-logo {
   display: inline-flex;
   align-items: center;
@@ -135,7 +131,6 @@ nav {
   transform: rotate(-8deg) scale(1.05);
 }
 
-/* MOBILE MENU BUTTON */
 .plavel-menu-button {
   display: none;
   width: 50px;
@@ -180,7 +175,6 @@ nav {
   top: 7px;
 }
 
-/* ACTIVE MENU */
 #menu-toggle:checked+.plavel-menu-button span {
   background: transparent;
 }
@@ -195,7 +189,6 @@ nav {
   transform: rotate(-45deg);
 }
 
-/* HERO */
 .hero {
   position: relative;
   min-height: 100svh;
@@ -256,7 +249,6 @@ nav {
   margin-bottom: 42px;
 }
 
-/* HERO BUTTONS */
 .hero-buttons {
   display: flex;
   justify-content: center;
@@ -294,7 +286,6 @@ nav {
   background: rgba(255, 255, 255, 0.16);
 }
 
-/* FEATURES */
 .features-section {
   padding: 120px 8%;
   background: linear-gradient(to bottom, #f8fbff, #eef4ff);
@@ -316,7 +307,6 @@ nav {
   color: #64748b;
 }
 
-/* FEATURES GRID */
 .features {
   max-width: 1240px;
   margin-inline: auto;
@@ -326,7 +316,6 @@ nav {
   align-items: stretch;
 }
 
-/* FEATURE CARD */
 .plavel-feature-card {
   display: flex;
   flex-direction: column;
@@ -348,7 +337,6 @@ nav {
   border: 1px solid rgba(37, 99, 235, 0.16);
 }
 
-/* BADGE SPACE */
 .card-badge-space {
   min-height: 34px;
   display: flex;
@@ -366,7 +354,6 @@ nav {
   font-weight: 600;
 }
 
-/* ICON */
 .plavel-feature-icon {
   width: 74px;
   height: 74px;
@@ -381,7 +368,6 @@ nav {
       rgba(125, 211, 252, 0.18));
 }
 
-/* CARD CONTENT */
 .card-content {
   flex: 1;
 }
@@ -407,7 +393,6 @@ nav {
   align-self: flex-start;
 }
 
-/* FOOTER */
 footer {
   background: linear-gradient(to bottom, #0f172a, #020617);
   color: white;
@@ -505,12 +490,10 @@ footer {
   color: #94a3b8;
 }
 
-/* MOBILE NAVIGATION */
 .nav-overlay {
   display: none;
 }
 
-/* RESPONSIVE */
 @media (max-width: 1150px) {
   .features {
     grid-template-columns: repeat(2, 1fr);
@@ -549,7 +532,6 @@ footer {
     z-index: 1001;
   }
 
-  /* MOBILE NAV */
   .plavel-nav-links {
     position: fixed;
     top: 0;
@@ -579,7 +561,6 @@ footer {
     transform: translateX(0);
   }
 
-  /* HERO */
   .hero {
     min-height: auto;
     padding: 150px 22px 90px;
@@ -600,7 +581,6 @@ footer {
     margin-bottom: 34px;
   }
 
-  /* HERO BUTTONS */
   .hero-buttons {
     flex-direction: column;
     align-items: stretch;
@@ -612,7 +592,6 @@ footer {
     text-align: center;
   }
 
-  /* FEATURES */
   .features-section {
     padding: 90px 6%;
   }
@@ -630,7 +609,6 @@ footer {
     margin-bottom: 26px;
   }
 
-  /* FOOTER */
   footer {
     padding: 80px 6% 30px;
   }
@@ -695,7 +673,6 @@ footer {
   }
 }
 
-/* ANIMATION */
 @keyframes fadeIn {
   from {
     opacity: 0;
